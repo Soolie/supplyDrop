@@ -109,8 +109,8 @@
 	//hint "end";
 		if (cursorTarget == _supplyBox) then {
 	supplyAct1 = player addaction ["Remove Light",{
-														_supplyLight = nearestObject [player, "Chemlight_green"];
-														deleteVehicle _supplyLight; player removeAction supplyAct1;}];};
+							_supplyLight = nearestObject [player, "Chemlight_green"];
+							deleteVehicle _supplyLight; player removeAction supplyAct1;}];};
 
 
 
